@@ -5,7 +5,7 @@ require("conform").setup({
     javascriptreact = { "biome", "prettierd", stop_after_first = true },
     typescriptreact = { "biome", "prettierd", stop_after_first = true },
     html = { "biome", "prettierd", stop_after_first = true },
-    css = { "stylelint", "biome" },
+    css = { "biome", "prettierd", stop_after_first = true },
     json = { "biome", "prettierd", stop_after_first = true },
     jsonc = { "biome", "prettierd", stop_after_first = true },
     yaml = { "prettierd" },
@@ -22,7 +22,10 @@ require("conform").setup({
 local function apply_code_actions_and_format(ev)
   require("bulb").code_action({
     bufnr = ev.buf,
-    kinds_by_server = { biome = { "source.fixAll.biome" } },
+    kinds_by_server = {
+      biome = { "source.fixAll.biome" },
+      stylelint_lsp = { "source" },
+    },
     timeout_ms = 1000,
   })
 
