@@ -9,7 +9,7 @@
       "src": "https://github.com/patrickswijgman/bulb.nvim"
     },
     "butter.nvim": {
-      "rev": "3a904593c726951cd74b777a8b180c25270ddfd9",
+      "rev": "16f9a5ab4f152b073c4f4e83d28764252d26b3ab",
       "src": "https://github.com/patrickswijgman/butter.nvim"
     },
     "conform.nvim": {
@@ -49,7 +49,7 @@
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "nvim-web-devicons": {
-      "rev": "09d1324e264c6950262dbe02a9bce2933a6800db",
+      "rev": "0ca28b61a04fe7426cefbdd52c2647ef0e335b5f",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "plenary.nvim": {
@@ -65,7 +65,7 @@
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "vague.nvim": {
-      "rev": "49fe06ad33d8847b931ba4279197bda222374cd1",
+      "rev": "161384e625e7b6cca118a3fa66225ba5cacdfb50",
       "src": "https://github.com/vague-theme/vague.nvim"
     }
   }
