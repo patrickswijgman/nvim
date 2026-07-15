@@ -24,7 +24,7 @@ local function apply_code_actions_and_format(ev)
     bufnr = ev.buf,
     kinds_by_server = {
       biome = { "source.fixAll.biome" },
-      stylelint_lsp = { "source" },
+      stylelint = { "source" },
     },
     timeout_ms = 1000,
   })
