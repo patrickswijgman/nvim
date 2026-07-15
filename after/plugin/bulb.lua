@@ -1,0 +1,27 @@
+require("bulb").setup({
+  servers = {
+    "biome",
+    "codebook",
+    "cssls",
+    "cssmodules_ls",
+    "emmet_language_server",
+    "fish_lsp",
+    "golangci_lint_ls",
+    "gopls",
+    "jsonls",
+    "lua_ls",
+    "nixd",
+    "pylsp",
+    "ruff",
+    "stylelint",
+    "taplo",
+    "vtsls",
+    "yamlls",
+  },
+  semantic_tokens = false,
+  completion = {
+    enable = true,
+    autotrigger = true,
+    trigger_characters = require("bulb").all_chars,
+  },
+})

@@ -1,0 +1,17 @@
+vim.pack.add({
+  { src = "https://github.com/chrisgrieser/nvim-spider" },
+  { src = "https://github.com/kylechui/nvim-surround" },
+  { src = "https://github.com/neovim/nvim-lspconfig" },
+  { src = "https://github.com/nvim-lua/plenary.nvim" },
+  { src = "https://github.com/nvim-telescope/telescope-ui-select.nvim" },
+  { src = "https://github.com/nvim-telescope/telescope.nvim" },
+  { src = "https://github.com/nvim-tree/nvim-web-devicons" },
+  { src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
+  { src = "https://github.com/olrtg/nvim-emmet" },
+  { src = "https://github.com/patrickswijgman/birb.nvim" },
+  { src = "https://github.com/patrickswijgman/bulb.nvim" },
+  { src = "https://github.com/patrickswijgman/butter.nvim" },
+  { src = "https://github.com/stevearc/conform.nvim" },
+  { src = "https://github.com/vague-theme/vague.nvim" },
+  { src = "https://github.com/windwp/nvim-autopairs" },
+})
